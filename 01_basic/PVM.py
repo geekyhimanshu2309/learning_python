@@ -7,3 +7,6 @@ def intro() :
     print("Python is an interpreted language")
     print("Byte code is python specific interpretation")
     print("Cpython(Standard implementation), Jython, IronPython, PyPy, Stackless Python")
+    print("Python in shell mode, checks command for interpretation or calculation")
+
+intro()
