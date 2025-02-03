@@ -1,0 +1,1 @@
+# Python doesn't have any data type. The data type we assign is always for the reference value in the memory. Hence, Python is a dynamically typed language, which means that you don't have to declare the type of a variable when you create one. Python automatically assigns the most appropriate type to a variable based on the value it is assigned.
