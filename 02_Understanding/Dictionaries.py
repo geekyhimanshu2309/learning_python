@@ -80,3 +80,20 @@ print(chai_types["Ginger"]["Caffeine"])       #Output: High
 squared_num = {x: x*x for x in range(5)}
 print(squared_num)       #Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 
+# You can also use conditional statements in dictionary comprehension to filter the elements based on a condition.
+
+even_squares = {x: x*x for x in range(10) if x % 2 == 0}
+print(even_squares)       #Output: {0: 0, 2: 4, 4: 16, 6: 36, 8: 64}
+
+# Dictionary Methods
+# Python provides several built-in methods to work with dictionaries. Here are some commonly used dictionary methods:
+
+keys = ["a", "b", "c"]  
+values = [1, 2, 3]
+default_value = 0
+
+new_dict = dict.fromkeys(keys, default_value)       #Create a new dictionary with the specified keys and values
+print(new_dict)       #Output: {'a': 0, 'b': 0, 'c': 0}
+
+new_dict_2 = dict(zip(keys, values))       #Create a new dictionary by zipping two lists
+print(new_dict_2)       #Output: {'a': 1, 'b': 2, 'c': 3}
